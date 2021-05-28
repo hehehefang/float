@@ -1,75 +1,103 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  ul,
-  li {
-    list-style: none;
-  }
-  
-  .clearfix:after {
-    content: "";
-    display: block;
-    clear: both;
-  }
-  
-  img {
-    max-width: 70%;
-  }
-  
-  .logo {
-    background: gray;
-    display: inline-block;
-    float: left;
-    margin-top: 4px;
-    margin-left: 10px;
-  }
-  
-  .logo > img {
-    width: 100px;
-    xvertical-align: middle;
-  }
-  
-  .nav {
-    float: right;
-    margin-left: 20px;
-  }
-  
-  ul > li {
-    float: left;
-    padding: 10px 0.5em;
-    line-height: 39px;
-  }
-  
-  ul {
-    display: inline-block;
-  }
-  
-  header {
-    background: gray;
-    color: white;
-  }
-  .content {
-    xborder: 1px solid red;
-    width: 900px;
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  .content > aside {
-    width: 200px;
-    height: 500px;
-    float: left;
-    background: #999;
-  }
-  
-  .content > main {
-    width: 600px;
-    height: 500px;
-    float: left;
-    background: #ccc;
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+img {
+  max-width: 70%;
+}
+
+.logo {
+  background: gray;
+  display: inline-block;
+  float: left;
+  margin-top: 4px;
+  margin-left: 10px;
+}
+
+.logo > img {
+  width: 100px;
+  xvertical-align: middle;
+}
+
+.nav {
+  float: right;
+  margin-left: 20px;
+}
+
+ul > li {
+  float: left;
+  padding: 10px 0.5em;
+  line-height: 39px;
+}
+
+ul {
+  display: inline-block;
+}
+
+header {
+  background: gray;
+  color: white;
+}
+.content {
+  xborder: 1px solid red;
+  width: 900px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content > aside {
+  width: 200px;
+  height: 500px;
+  float: left;
+  background: #999;
+}
+
+.content > main {
+  width: 600px;
+  height: 500px;
+  float: left;
+  background: #ccc;
+}
+
+.content > .ad {
+  width: 100px;
+  height: 500px;
+  float: left;
+  background: rgb(90, 69, 69);
+}
+
+.imagesList {
+  /* xborder: 1px solid rgb(8, 6, 6); */
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imagesList > .x > .image {
+  /* xborder: 1px solid red; */
+  width: 216px;
+  height: 216px;
+  background: rgb(92, 92, 107);
+  float: left;
+  margin-bottom: 10px;
+  margin-right: 12px;
+  margin-top: 10px;
+}
+
+.imagesList > .x {
+  margin-right: -12px;
+}

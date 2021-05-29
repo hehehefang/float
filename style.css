@@ -29,7 +29,7 @@ img {
 
 .logo > img {
   width: 100px;
-  xvertical-align: middle;
+  vertical-align: middle;
 }
 
 .nav {
@@ -52,7 +52,6 @@ header {
   color: white;
 }
 .content {
-  xborder: 1px solid red;
   width: 900px;
   margin-top: 10px;
   margin-left: auto;
